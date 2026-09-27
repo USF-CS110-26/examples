@@ -1,0 +1,5 @@
+print(1, end = " ")
+print(2)
+print(3)
+print(4, end = " ")
+print(5)
