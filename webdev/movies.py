@@ -22,3 +22,12 @@ def get_movie(movie_id: int):
         """
     else:
         return "<h1>Movie not found</h1>"
+
+@app.get("/findmovies", response_class=HTMLResponse)
+def search_movie(title: str):
+    for movie_id in movies:
+        if title == movies[movie_id]:
+            return f"<h1>Movie found: {movies[movie_id]}</h1>"
+
+    return "<h1>Movie not found</h1>"
+
