@@ -1,0 +1,20 @@
+[
+    {
+        "title": "The Hobbit",
+        "author": "J.R.R. Tolkien",
+        "price": 15,
+        "available": true
+    },
+    {
+        "title": "The Hunger Games",
+        "author": "Suzanne Collins",
+        "price": 12,
+        "available": false
+    },
+    {
+        "title": "The Martian",
+        "author": "Andy Weir",
+        "price": 18,
+        "available": true
+    }
+]

@@ -1,0 +1,7 @@
+{
+    "name": "Emily",
+    "major": "Computer Science",
+    "year": 2,
+    "gpa": 3.8,
+    "courses": ["CS110", "MATH101", "ENG120"]
+}
